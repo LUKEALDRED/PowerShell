@@ -1,5 +1,6 @@
 ﻿# Specify the profile name
 Set-AWSCredential -ProfileName <PROFILE_NAME>
+Set-DefaultAWSRegion -Region <REGION>
 
 # Create the empty array of instance ids
 $instanceIdArray = [System.Collections.ArrayList]::new()
